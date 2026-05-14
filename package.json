@@ -1,0 +1,32 @@
+{
+  "name": "cybersecurity-incident-tracker-backend",
+  "version": "0.2.0",
+  "description": "Simple university laboratory backend using Node.js + Express + TypeScript with in-memory storage",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "lint": "eslint . --ext .ts"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "typescript",
+    "in-memory",
+    "laboratory-work"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.10.5",
+    "@typescript-eslint/eslint-plugin": "^8.19.0",
+    "@typescript-eslint/parser": "^8.19.0",
+    "eslint": "^8.57.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
